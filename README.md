@@ -3,11 +3,11 @@
 ## Programação para Interfaceamento de Hardware e Software
 
 ### Como compilar:
->   as -32 trabalho2.s -o trabalho2.o
+>   as -32 trabalho.s -o trabalho.o
 
->   ld -m elf_i386 trabalho2.o -l c -dynamic-linker /lib/ld-linux.so.2 -o trabalho2
+>   ld -m elf_i386 trabalho.o -l c -dynamic-linker /lib/ld-linux.so.2 -o trabalho
 
->   ./trabalho2
+>   ./trabalho
 
 #### trabalho desenvolvido na disciplina de Programação para Interfaceamento de Hardware e Software, que consistiu em realizar um CRUD na linguagem Assembly X86 de um controle de locação de imobiliárias. A descrição do trabalho pode ser encontrada a seguir.
 
